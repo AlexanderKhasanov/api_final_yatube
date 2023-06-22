@@ -9,7 +9,7 @@ from rest_framework.permissions import (IsAuthenticatedOrReadOnly,
                                         IsAuthenticated)
 
 from .permissions import IsAuthorOrReadOnly
-from .custom_viewset import ListCreateViewSet
+from .viewset import ListCreateViewSet
 from .serializers import (PostSerializer, CommentSerializer, GroupSerializer,
                           FollowSerializer)
 from posts.models import Post, Comment, Group, Follow
